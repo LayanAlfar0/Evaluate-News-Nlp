@@ -1,0 +1,35 @@
+// resets.scss
+$primary-color: #4a90e2;
+$secondary-color: #f5f5f5;
+$accent-color: #ff5a5f;
+$text-color: #333;
+$background-color: #fafafa;
+$font-family: 'Arial', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}

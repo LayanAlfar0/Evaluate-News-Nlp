@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Evaluate News NLP</title>
+</head>
+<body>
+  <header>
+    <h1>Evaluate News Nlp</h1>
+  </header>
+  <main>
+    <section>
+      <form id="url-form" method="post" onsubmit="return Client.handleSubmit(event)">
+        <label for="name">Please Enter a URL to analyze :</label>
+        <input id="name" type="text" name="url" placeholder="URL: " required />
+        <div class="feedback"></div>
+        <button id="submit-button" type="submit">Click to Analyze</button>
+        <div class="loader">Loading...</div>
+        <div class="error"></div>
+      </form>
+    </section>
+    <section>
+      <p class="result"><strong>Analysis Results:</strong></p>
+      <p id="results"></p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; Layan Alfar</p>
+  </footer>
+</body>
+</html>
